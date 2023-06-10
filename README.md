@@ -142,15 +142,11 @@ This results in way less false positives by missing only one fraudulent case.
 ![Image](https://user-images.githubusercontent.com/131453473/244705212-4adaa7f8-611d-4e1d-ae3d-0862ae6eba97.png)
 
 Furthermore, in order to interpret the Logistic Regression model, we look at the model coefficients, which represent the importance of each of the features in our model's ability to detect fraud or not.
+
 model.coef_
 
 We can also find the model intercept: 
 model.intercept_
-
-We can determine the Class probability too:
-
-#true probabilities would require model calibration isotonic regression etc
-model.predict_proba(X_test)
 
 Importing SHAP we find the average expected marginal contribution of one feature to the model after all possible feature combinations have been considered.
 
