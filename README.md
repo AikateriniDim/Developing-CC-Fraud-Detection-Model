@@ -1,4 +1,4 @@
-#We install the necessary packages and import libraries.
+We install the necessary packages and import libraries.
 
 import matplotlib.pyplot as plt 
 
