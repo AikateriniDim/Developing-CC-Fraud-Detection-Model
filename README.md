@@ -183,7 +183,7 @@ import seaborn as sns
 
 ![Image](https://user-images.githubusercontent.com/131453473/244786803-5bcc451b-bdc1-4a61-961e-7ffd3856cb92.png)
 
-Implementing hyperparameter optimisation to get an optimal XGBoost Model.
+**Implementing hyperparameter optimisation to get an optimal XGBoost Model**
 
 #Train the XGBoost classifier with the scale weight hyper parameter set to 100.
 model = xgb.XGBClassifier(scale_pos_weight=100)
@@ -219,6 +219,7 @@ model.classes_
 model.feature_importances_
 
 **Performance metrics for optimal XGBoost model**
+
 Using scikit-learn we can examine various performance metrics for our optimal XGBoost model.
 
 • Precision is the proportion of correctly predicted fraudulent cases among all predicted as fraud cases. (True Positive / True Positive + False Positive)
